@@ -10,8 +10,13 @@ struct Dog {
     {
         return heightInMetres * 100
     }
+    var ratio: Double
+    {
+        return lengthInMetres/heightInMetres
+    }
     
 }
-var Dog1 = Dog(breed: "sd", color: "df", heightInMetres: 45, lengthInMetres: 67, massInKilogrames: 75)
+var Dog1 = Dog(breed: "sd", color: "z", heightInMetres: 12, lengthInMetres: 24, massInKilogrames: 54)
 
 Dog1.heightInCentimetres
+Dog1.ratio
