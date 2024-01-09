@@ -20,3 +20,18 @@ var Dog1 = Dog(breed: "sd", color: "z", heightInMetres: 12, lengthInMetres: 24, 
 
 Dog1.heightInCentimetres
 Dog1.ratio
+
+struct Book {
+    let title: String
+    var price: Double
+    let author: String
+    let colour: String
+    var heightInCm: Double
+    var lengthInCm: Double
+    var areaInCm: Double
+    {
+        return heightInCm*lengthInCm
+    }
+}
+var Book1 = Book(title: "First Book", price: 99999999, author: "unknow", colour: "blue", heightInCm: 23, lengthInCm: 45)
+Book1.areaInCm
