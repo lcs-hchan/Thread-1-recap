@@ -16,10 +16,10 @@ struct Dog {
     }
     
 }
-var Dog1 = Dog(breed: "sd", color: "z", heightInMetres: 12, lengthInMetres: 24, massInKilogrames: 54)
+var dogAtLeft = Dog(breed: "English Bulldog", color: "ligh brown, some white", heightInMetres: 0.457, lengthInMetres: 0.3, massInKilogrames: 15)
+var dogAtMiddle = Dog(breed: "german Shephered", color: "black and dark brown", heightInMetres: 0.753, lengthInMetres: 0.2, massInKilogrames: 12)
 
-Dog1.heightInCentimetres
-Dog1.ratio
+
 
 struct Book {
     let title: String
